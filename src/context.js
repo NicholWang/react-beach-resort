@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import items from "./data";
 import Client from "./Contentful";
 
 const RoomContext = React.createContext();
@@ -81,8 +80,6 @@ class RoomProvider extends Component {
       type,
       capacity,
       price,
-      minPrice,
-      maxPrice,
       minSize,
       maxSize,
       breakfast,
